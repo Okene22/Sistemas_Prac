@@ -1,0 +1,28 @@
+iframe {
+    position: absolute;
+    border: none;
+}
+
+.video-izquierda {
+    top: 500px;
+    left: 20px; 
+}
+
+.video-derecha {
+    top: 500px; 
+    right: 20px; 
+}
+
+@media (max-width: 768px) {
+    iframe {
+        position: static; 
+        height: 200px;
+        margin: 10px; 
+        display: block; 
+    }
+
+    .video-izquierda,
+    .video-derecha {
+        position: static; 
+    }
+}
